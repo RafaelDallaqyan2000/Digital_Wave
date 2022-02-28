@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./table.css">
+</head>
+
+<body>
+    <div class="container">
+
+         <div class="inputs">
+            <div class="info">
+                <label for="name">Name : <input id="name" name="name" type="text"></label>
+            <label for="age">Age : <input id="age" name="age" type="number" min="1"></label>
+            <button id="addBtn">Add</button>
+            </div>
+
+        <div id="error"></div>
+        </div>
+
+
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tBody">
+
+            </tbody>
+            <tfoot  id="pagination" class="pagination">
+
+            </tfoot>
+        </table>
+       
+
+
+        <!-- <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table> -->
+
+    </div>
+    <!-- <script src="./newTable.js"></script> -->
+    <script src="./table.js"></script>
+</body>
+
+</html>
